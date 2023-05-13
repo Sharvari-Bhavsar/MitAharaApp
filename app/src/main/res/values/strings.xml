@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">try_fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ex1">Exercise</string>
+    <string name="ex2">Physical Exercise</string>
+    <string name="ex3">Mental Exercise</string>
+    <string name="exp1">1 to 6 Month</string>
+    <string name="exp2">7 to 12 Month</string>
+    <string name="exp3">1 to 3 Year</string>
+    <string name="exp4">4 to 5 Year</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="expp1">Tummy Time</string>
+    <string name="expp2">Eye contact</string>
+    <string name="expp3">Sensory play</string>
+    <string name="expp4">Baby massage</string>
+    <string name="expp5">Singing and dancing</string>
+    <string name="expp6info">       Place the baby on their tummy on a soft, flat surface for a few minutes at a time several times a day. This helps to strengthen their neck and shoulder muscles and prepare them for crawling.</string>
+    <string name="expp7info">       Make eye contact with your baby and talk or sing to them. This encourages social and emotional development and helps to establish a bond between you and your child.</string>
+    <string name="expp8info">       Offer your baby toys with different textures, colors, and sounds. This stimulates their senses and encourages exploration and curiosity.</string>
+    <string name="expp9info">       Baby massage: Gently massage your baby\'s arms, legs, and back. This can promote relaxation and help to soothe your baby.</string>
+    <string name="expp10info">      Sing songs and dance with your baby. This promotes physical activity, helps to develop a sense of rhythm, and encourages social and emotional development.</string>
+    <string name="phy1">Rolling</string>
+    <string name="phy2">Crawling</string>
+    <string name="phy3">Sitting practice</string>
+    <string name="phy5">Kicking</string>
+    <string name="phy6">Running and jumping</string>
+    <string name="phy7">Dancing</string>
+    <string name="phy8">Outdoor play</string>
+    <string name="phy9">Balancing</string>
+    <string name="phy10">Yoga</string>
+    <string name="phy11">Sports</string>
+    <string name="phy12">Playing with balls</string>
+    <string name="phy13">Riding with tricycles</string>
+    <string name="phy14">Obstacle courses</string>
+    <string name="men1">Reading</string>
+    <string name="men2">Singing</string>
+    <string name="men3">Playtime</string>
+    <string name="men4">Puzzles</string>
+    <string name="men5">Blocks</string>
+    <string name="men6">Sorting</string>
+    <string name="men7">Role-play</string>
+    <string name="men8">Sensory play</string>
+    <string name="men9">Art activities</string>
+    <string name="men10">Screen time</string>
+    <string name="phy1info">        Encourage your baby to roll from their back to their tummy and back again. This helps to strengthen their core muscles and improve their coordination.</string>
+    <string name="phy2info">        Place toys just out of reach to encourage your baby to crawl towards them. This helps to strengthen their upper body and prepare them for walking.</string>
+    <string name="phy3info">        Support your baby in a seated position and encourage them to sit up on their own. This helps to strengthen their core muscles and improve their balance.</string>
+    <string name="exppinfo">        Continue to provide tummy time for your baby to strengthen their neck and shoulder muscles.</string>
+    <string name="phy5info">        Encourage your baby to kick their legs while lying on their back. This helps to strengthen their leg muscles and improve their coordination.</string>
+    <string name="phy6info">        Encourage your child to run, jump, and hop around. This helps to develop their gross motor skills, coordination, and balance</string>
+    <string name="phy7info">        Put on some music and dance with your child. This helps to improve their coordination and gross motor skills, and it\'s also a fun way to bond with your child.</string>
+    <string name="phy8info">        Take your child to the park or playground and let them play on the swings, slide, and climbing equipment. This helps to develop their gross motor skills, coordination, and balance.</string>
+    <string name="phy9info">        Set up an obstacle course or balance beam for your child to walk on. This helps to develop their balance and coordination.</string>
+    <string name="phy10info">       Introduce your child to simple yoga poses like downward-facing dog, tree pose, and child\'s pose. This helps to develop their flexibility, balance, and body awareness.</string>
+    <string name="phy15">Active Games</string>
+    <string name="phy15info">       Play active games with your child such as tag, hide and seek, or Simon says. This helps to develop their coordination, endurance, and problem-solving skills.</string>
+    <string name="phy11info">       Encourage your child to participate in sports such as soccer, basketball, or swimming. This helps to develop their gross motor skills, coordination, and social skills.</string>
+    <string name="phy14info">       Set up an obstacle course in your backyard or living room. Include activities like jumping over cones, crawling under chairs, and balancing on a beam. This helps to develop their balance, coordination, and problem-solving skills.</string>
+    <string name="men1info">        Reading books to your child helps to develop their vocabulary, cognitive skills, and imagination.</string>
+    <string name="men2info">        Singing songs and nursery rhymes helps to develop language skills, memory, and creativity.</string>
+    <string name="men3info">        Playtime is essential for young children\'s mental development. It helps to develop problem-solving skills, creativity, and imagination.</string>
+    <string name="men4info">        Age-appropriate puzzles help to develop problem-solving skills, hand-eye coordination, and cognitive skills.</string>
+    <string name="men5info">        Building with blocks helps to develop spatial awareness, problem-solving skills, and creativity.</string>
+    <string name="men6info">        Sorting objects by color, size, or shape helps to develop cognitive skills and problem-solving abilities.</string>
+    <string name="info7info">       Encourage your child to engage in imaginative play by pretending to be a doctor, firefighter, or teacher. This helps to develop social skills, empathy, and creativity.</string>
+    <string name="men8info">        Sensory play, such as playing with sand, water, or playdough, helps to develop fine motor skills, creativity, and cognitive skills.</string>
+    <string name="men9info">        Drawing, painting, and coloring help to develop fine motor skills, creativity, and self-expression.</string>
+    <string name="men10info">       If screen time is allowed, choose age-appropriate educational apps or videos that help to develop cognitive and language skills.</string>
+    <string name="men7info">        Encourage your child to engage in imaginative play by pretending to be a doctor, firefighter, or teacher. This helps to develop social skills, empathy, and creativity.</string>
+
+</resources>
