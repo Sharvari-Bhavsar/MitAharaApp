@@ -49,7 +49,7 @@ public class loginActivity extends AppCompatActivity {
                         new  Database(loginActivity.this).USERdumpCursorInLogCat();
 
                         Toast.makeText(loginActivity.this,"Login Successful" ,Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(loginActivity.this,ststus_database_U.class));
+                        startActivity(new Intent(loginActivity.this,MainActivity.class));
 
                     }else{
                         Toast.makeText(loginActivity.this,"Invalid username and password" ,Toast.LENGTH_SHORT).show();
