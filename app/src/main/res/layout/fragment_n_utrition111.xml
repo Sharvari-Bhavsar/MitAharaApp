@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NUtrition111Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="0dp">
+
+            <ImageButton
+                android:id="@+id/imageButton40"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@color/purple3"
+                android:src="@drawable/baseline_arrow_back_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="0dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="421dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/constraintLayout2">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <!--main row-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            android:background="#9C6EB0"
+
+                            android:text="Item"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            android:background="@color/title"
+                            android:text="4 to 6 months"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            android:background="#9C6EB0"
+                            android:text="7 months"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            android:background="#9C6EB0"
+                            android:text="8 months"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            android:background="#9C6EB0"
+                            android:text="9 months"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            android:background="#9C6EB0"
+                            android:text="10 to 12 moths"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <!--                    1st row-->
+                    <TableRow>
+
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="90dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="Breastfeeding"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="90dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="4 to 6 feedings per day "
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="90dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="@string/_3_to_5_feedings_per_day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="90dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="@string/_3_to_5_feedings_per_day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="90dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="@string/_3_to_5_feedings_per_day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="90dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="3 to 4 feedings per day "
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                    </TableRow>
+                    <!--                    2nd row-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#EEE1F4"
+                            android:padding="3dp"
+                            android:text="Dry infant cereal with iron"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#EEE1F4"
+                            android:padding="3dp"
+                            android:text="@string/_3_to_5_tbs_single_grain_iron_fortified_cereal"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#EEE1F4"
+                            android:padding="3dp"
+                            android:text="@string/_3_to_5_tbs_single_grain_iron_fortified_cereal"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#EEE1F4"
+                            android:padding="3dp"
+                            android:text="3 to 5 tbs. single grain cereal mixed with formula"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#EEE1F4"
+                            android:padding="3dp"
+                            android:text="5 to 8tbs. any variety mixed with formula"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#EEE1F4"
+                            android:padding="3dp"
+                            android:text="5 to 8tbs. any variety mixed with formula"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                    </TableRow>
+                    <!--                    3rd row-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="Fruits"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="1 to 2 tbs. , plain, strained/1 to 2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="1 to 3 tbs , plain, strained/2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="2 to 3 tbs., strained or soft mashed/2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="2 to 4 tbs., strained or soft mashed/2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="2 to 4 tbs., mashed or strained, cooked/2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                    </TableRow>
+                    <!--                    4th row-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#EEE1F4"
+                            android:padding="3dp"
+                            android:text="Vegetables"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#EEE1F4"
+                            android:padding="3dp"
+                            android:text="1 to 2 tbs., plain, strained/1 to 2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#EEE1F4"
+                            android:padding="3dp"
+                            android:text="2 to 3 tbs., plain, strained/2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#EEE1F4"
+                            android:padding="3dp"
+                            android:text="2 to 3 tbs., strained, mashed, soft/2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#EEE1F4"
+                            android:padding="3dp"
+                            android:text="2 to 4 tbs., mashed, soft, bite-sized pieces/2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:background="#EEE1F4"
+                            android:padding="3dp"
+                            android:text="2 to 4 tbs., mashed, soft, bite-sized pieces/2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                    </TableRow>
+                    <!--                    5th row-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="Meat and protein Foods"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="1 to 2 tbs., strained/2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="1 to 2 tbs., strained/2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="1 to 3 tbs., strained/2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="2 to 3 tbs. of tender, chopped/2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:background="#E4C5F1"
+                            android:padding="3dp"
+                            android:text="2 to 3 tbs., finely chopped, table meats, fish without bones, mild cheese/2 times per day"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                    </TableRow>
+                    <!--                    6th row-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="#EEE1F4"
+                            android:text="Snacks and starches"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="#EEE1F4"
+                            android:text="Cookies, toast, crackers"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="#EEE1F4"
+                            android:text="Cookies, toast, crackers, plain yogurt"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="#EEE1F4"
+                            android:text="Cookies, toast, crackers, plain yogurt, mashed potatoes, macaroni, spaghetti, bread"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="#EEE1F4"
+                            android:text="Assorted finger foods, cookies, toast, crackers, plain yogurt, cooked green beans, mashed potatoes, macaroni, spaghetti, bread"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="#EEE1F4"
+                            android:text="Assorted finger foods, cookies, toast, crackers, plain yogurt, cooked green beans, mashed potatoes, macaroni, spaghetti, bread"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                    </TableRow>
+                    <!--                    7th row-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="#E4C5F1"
+                            android:text="Development"
+
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="#E4C5F1"
+                            android:text="Make first cereal feedings very soupy and thicken slowly."
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="#E4C5F1"
+                            android:text="Start finger foods and cup."
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="#E4C5F1"
+                            android:text="Formula intake decreases; solid foods in diet increase."
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="#E4C5F1"
+                            android:text=" Eating more table foods. Make sure diet has good variety."
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="#E4C5F1"
+                            android:text="Baby may change to table food. Baby will feed himself or herself and use a spoon and cup."
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                    </TableRow>
+                    <!--                    8th row-->
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                    </TableRow>
+                </TableLayout>
+            </HorizontalScrollView>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

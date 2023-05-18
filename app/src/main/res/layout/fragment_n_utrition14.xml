@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/row2"
+    tools:context=".NUtrition14Fragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.003"
+            tools:layout_editor_absoluteX="10dp">
+
+            <ImageButton
+                android:id="@+id/imageButton51"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@color/purple3"
+                android:src="@drawable/baseline_arrow_back_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="0dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="3dp">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <!--title-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/title"
+                            android:padding="3dp"
+                            android:text="Day’s"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/title"
+                            android:padding="3dp"
+                            android:text="Breakfast (8:00-8:30AM)"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/title"
+                            android:padding="3dp"
+                            android:text="Mid-Meal (11:00-11:30AM)"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/title"
+                            android:padding="3dp"
+                            android:text="Lunch (2:00-2:30PM"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/title"
+                            android:padding="3dp"
+                            android:text="Evening (4:00-4:30PM)"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/title"
+                            android:padding="3dp"
+                            android:text="Dinner (8:00-8:30PM)"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </TableRow>
+                    <!--1st row-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="Day1"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="1 cup milk + 1 tomato and cucumber brown bread sandwich with 1 cheese slice + 1 tsp tomato pureed"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="1 cup watermelon/ watermelon juice + nuts"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="Chapati 2 + Cabbage Curry (1/2 cup)"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="1 cup milk + 1/2 cup poha"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="Chapati 1 soaked in Milk(1/2 cup) with jaggery"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+
+                    </TableRow>
+                    <!--2nd row-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row2"
+                            android:padding="3dp"
+                            android:text="Day2"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row2"
+                            android:padding="3dp"
+                            android:text="1 cup milk + 2 potato cheela + 2 tsp tomato chutney"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row2"
+                            android:padding="3dp"
+                            android:text="1 orange + nuts"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row2"
+                            android:padding="3dp"
+                            android:text="Chapati 2 + Cauliflower Curry (1/2 cup)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row2"
+                            android:padding="3dp"
+                            android:text="1 cup milk + 1 cottage cheese sandwich"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row2"
+                            android:padding="3dp"
+                            android:text="Chapati 1 + Chana Daal (1/2 cup)s"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+
+                    </TableRow>
+                    <!--3rd row-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="Day 3"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="1 cup milk + 1 cup vegetable macaroni"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="1 cup kiwi smoothie + nuts"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="chapati 2 + Mixed Veg Curry (1/2 cup"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="1 cup rice kheer with jaggery"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="Chapati 1 + Fish curry (1/2 cup)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+
+                    </TableRow>
+                    <!--4th row-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row2"
+                            android:padding="3dp"
+                            android:text="Day 4"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:text="1 cup milk + 1 besan cheela"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row2"
+                            android:padding="3dp"
+                            android:text="1 cup strawberry smoothie with nuts"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row2"
+                            android:padding="3dp"
+                            android:text="chapati 1 + Soy bean curry (1/2 cup)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row2"
+                            android:padding="3dp"
+                            android:text="1 cup vanila milkshake + 1 cup vegetable upma"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row2"
+                            android:padding="3dp"
+                            android:text="Chapati 1 + Rajma (1/2 cup)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+
+                    </TableRow>
+                    <!--5th row-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="Day 5"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="1 cup milk + 1 cup vegetable idli"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="1 cup pineapple + nuts"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="Chapati 1 + Paneer Curry (1/2 cup)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="1 cup milk + 1 cup vegetable oats"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="Chapati 1 soaked in Milk(1/2 cup) with jaggery"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+
+                    </TableRow>
+                    <!--6th row-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="@color/row2"
+                            android:text="Day 6"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="@color/row2"
+                            android:text="1 cup milk + 1 vegetable suji cheela"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="@color/row2"
+                            android:text="1 cup apple + nuts"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="@color/row2"
+                            android:text="Chapati 2 + Pumpkin n Potato Curry (1/2 cup)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="@color/row2"
+                            android:text="1 cup strawberry milkshake"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="@color/row2"
+                            android:text="chapati 1 + Chana Daal (1/2 cup)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+
+                    </TableRow>
+                    <!--7th row-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:background="@color/row1"
+                            android:padding="3dp"
+                            android:text="Day 7"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="@color/row1"
+                            android:text="1 cup milk + 4-5 pcs cheese pakora"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:text="1 cup mix fruit juice + nuts"
+                            android:background="@color/row1"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:background="@color/row1"
+                            android:text="Rice (1/2 cup) + Daal (1/3 cup) + Roasted Papad 1++ Chicken/ Fish curry (1/2 cup)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:text="1 cup milk + 1 Veg Pan Cake"
+                            android:background="@color/row1"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:text="Chapati 1 + Fish curry (1/2 cup)"
+                            android:background="@color/row1"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+
+                    </TableRow>
+
+                    <!--                    blank row-->
+                    <TableRow>
+
+
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="150dp"
+                            android:padding="3dp"
+
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                    </TableRow>
+
+
+                </TableLayout>
+            </HorizontalScrollView>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

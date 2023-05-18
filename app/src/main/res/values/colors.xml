@@ -5,4 +5,8 @@
     <color name="purple">#D30CE9</color>
     <color name="purple2">#683A7C</color>
     <color name="purple3">#C8B082C4</color>
+    <color name="title">#9C6EB0</color>
+    <color name="row1">#E4C5F1</color>
+    <color name="row2">#EEE1F4</color>
+
 </resources>

@@ -8,14 +8,14 @@ import androidx.fragment.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link Physical2Fragment#newInstance} factory method to
+ * Use the {@link NUtrition11Fragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Physical2Fragment extends Fragment {
+public class NUtrition11Fragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class Physical2Fragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public Physical2Fragment() {
+    public NUtrition11Fragment() {
         // Required empty public constructor
     }
 
@@ -36,11 +36,11 @@ public class Physical2Fragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Physical2Fragment.
+     * @return A new instance of fragment NUtrition11Fragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static Physical2Fragment newInstance(String param1, String param2) {
-        Physical2Fragment fragment = new Physical2Fragment();
+    public static NUtrition11Fragment newInstance(String param1, String param2) {
+        NUtrition11Fragment fragment = new NUtrition11Fragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -56,19 +56,28 @@ public class Physical2Fragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-    ImageButton imagebutton2;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view= inflater.inflate(R.layout.fragment_physical2, container, false);
-        imagebutton2=view.findViewById(R.id.imageButton2);
-        imagebutton2.setOnClickListener(new View.OnClickListener() {
+        View view= inflater.inflate(R.layout.fragment_n_utrition11, container, false);
+        Button button15 = view.findViewById(R.id.button4);
+        button15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment next1 = new Exercise11Fragment();
+                Fragment next9 = new NUtrition110Fragment();
                 FragmentTransaction fm1 = getActivity().getSupportFragmentManager().beginTransaction();
-                fm1.replace(R.id.fragmentContainerView, next1).commit();
+                fm1.replace(R.id.fragmentContainerView, next9).commit();
+            }
+        });
+        Button button16 = view.findViewById(R.id.button42);
+        button16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment next9 = new NUtrition111Fragment();
+                FragmentTransaction fm1 = getActivity().getSupportFragmentManager().beginTransaction();
+                fm1.replace(R.id.fragmentContainerView, next9).commit();
             }
         });
         return view;

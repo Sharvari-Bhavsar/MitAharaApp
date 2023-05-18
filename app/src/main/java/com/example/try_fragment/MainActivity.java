@@ -77,9 +77,11 @@ public class MainActivity extends AppCompatActivity {
                         .setReorderingAllowed(true)
                         .addToBackStack("Nutrition")
                         .commit();
+                btExercise.setVisibility(View.GONE);
+                btVaccine.setVisibility(View.GONE);
+                btNutrition.setVisibility(View.GONE);
+                toolbar.setVisibility(View.VISIBLE);
             }
-
-
         });
 
 
