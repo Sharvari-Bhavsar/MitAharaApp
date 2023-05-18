@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -76,6 +77,15 @@ public class NUtrition11Fragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Fragment next9 = new NUtrition111Fragment();
+                FragmentTransaction fm1 = getActivity().getSupportFragmentManager().beginTransaction();
+                fm1.replace(R.id.fragmentContainerView, next9).commit();
+            }
+        });
+       ImageButton imageButton = view.findViewById(R.id.imageButton79);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment next9 = new NUtrition1Fragment();
                 FragmentTransaction fm1 = getActivity().getSupportFragmentManager().beginTransaction();
                 fm1.replace(R.id.fragmentContainerView, next9).commit();
             }

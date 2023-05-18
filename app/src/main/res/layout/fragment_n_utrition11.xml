@@ -71,7 +71,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView35"
+            android:id="@+id/imageView59"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:src="@drawable/solidfood"
@@ -79,6 +79,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.061"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton79"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="340dp"
+            android:background="#C8B082C4"
+            android:src="?attr/homeAsUpIndicator"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
