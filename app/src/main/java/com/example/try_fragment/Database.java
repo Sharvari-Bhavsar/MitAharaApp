@@ -5,6 +5,8 @@ import android.database.Cursor;
 import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Patterns;
+
 public class Database extends SQLiteOpenHelper {
 
     public Database(Context context) {
@@ -190,6 +192,7 @@ public class Database extends SQLiteOpenHelper {
             return false;
         }
     }
+
 
 
 }

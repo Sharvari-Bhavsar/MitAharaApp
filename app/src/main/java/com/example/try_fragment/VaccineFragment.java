@@ -62,12 +62,12 @@ public class VaccineFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_vaccine, container, false);
-        ImageButton imageButton= view.findViewById(R.id.imageButton42);
-        imageButton.setOnClickListener(new View.OnClickListener(){
-
+        ImageButton imageButton = view.findViewById(R.id.imageButton42);
+        imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent intent =new Intent(getActivity(), ststus_database_U.class);
+            public void onClick(View v) {
+                // Create an intent to start the activity
+                Intent intent = new Intent(getActivity(),MainActivity3.class);
                 startActivity(intent);
             }
         });
