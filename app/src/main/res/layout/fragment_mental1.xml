@@ -29,7 +29,7 @@
                     android:gravity="center"
                     android:text="@string/men1"
                     android:textColor="@color/black"
-                    android:textSize="54sp"
+                    android:textSize="40sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -60,7 +60,7 @@
                     android:gravity="center"
                     android:text="@string/men2"
                     android:textColor="@color/black"
-                    android:textSize="54sp"
+                    android:textSize="40sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -80,7 +80,7 @@
                     android:gravity="center"
                     android:text="@string/men3"
                     android:textColor="@color/black"
-                    android:textSize="54sp"
+                    android:textSize="40sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -100,7 +100,7 @@
                     android:gravity="center"
                     android:text="@string/men4"
                     android:textColor="@color/black"
-                    android:textSize="54sp"
+                    android:textSize="40sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -120,7 +120,7 @@
                     android:gravity="center"
                     android:text="@string/men5"
                     android:textColor="@color/black"
-                    android:textSize="54sp"
+                    android:textSize="40sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -140,7 +140,7 @@
                     android:gravity="center"
                     android:text="@string/men6"
                     android:textColor="@color/black"
-                    android:textSize="54sp"
+                    android:textSize="40sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -160,7 +160,7 @@
                     android:gravity="center"
                     android:text="@string/men7"
                     android:textColor="@color/black"
-                    android:textSize="54sp"
+                    android:textSize="40sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -200,7 +200,7 @@
                     android:gravity="center"
                     android:text="@string/men9"
                     android:textColor="@color/black"
-                    android:textSize="40sp"
+                    android:textSize="34sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />

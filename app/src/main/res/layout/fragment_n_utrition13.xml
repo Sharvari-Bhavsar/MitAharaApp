@@ -56,7 +56,7 @@
                             android:background="@color/title"
                             android:padding="3dp"
                             android:text="Day’s"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -66,7 +66,7 @@
                             android:background="@color/title"
                             android:padding="3dp"
                             android:text="Early morning"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -76,7 +76,7 @@
                             android:background="@color/title"
                             android:padding="3dp"
                             android:text="Breakfast"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -86,7 +86,7 @@
                             android:background="@color/title"
                             android:padding="3dp"
                             android:text="Mid-Morning"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -96,7 +96,7 @@
                             android:background="@color/title"
                             android:padding="3dp"
                             android:text="Lunch"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -106,7 +106,7 @@
                             android:background="@color/title"
                             android:padding="3dp"
                             android:text="Evening"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -116,7 +116,7 @@
                             android:background="@color/title"
                             android:padding="3dp"
                             android:text="Dinner"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
                     </TableRow>

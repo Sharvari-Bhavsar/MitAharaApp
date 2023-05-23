@@ -121,7 +121,7 @@
                             android:background="@color/row1"
                             android:padding="3dp"
                             android:text="Day1"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
@@ -130,7 +130,7 @@
                             android:background="@color/row1"
                             android:padding="3dp"
                             android:text="1 cup milk + 1 tomato and cucumber brown bread sandwich with 1 cheese slice + 1 tsp tomato pureed"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
@@ -139,7 +139,7 @@
                             android:background="@color/row1"
                             android:padding="3dp"
                             android:text="1 cup watermelon/ watermelon juice + nuts"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
@@ -148,7 +148,7 @@
                             android:background="@color/row1"
                             android:padding="3dp"
                             android:text="Chapati 2 + Cabbage Curry (1/2 cup)"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
@@ -157,7 +157,7 @@
                             android:background="@color/row1"
                             android:padding="3dp"
                             android:text="1 cup milk + 1/2 cup poha"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="20sp" />
 
                         <TextView
@@ -166,7 +166,7 @@
                             android:background="@color/row1"
                             android:padding="3dp"
                             android:text="Chapati 1 soaked in Milk(1/2 cup) with jaggery"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="20sp" />
 
 

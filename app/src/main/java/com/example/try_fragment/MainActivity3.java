@@ -7,6 +7,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.FragmentManager;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.database.Cursor;
 
 import android.os.Bundle;
@@ -29,7 +30,7 @@ public class MainActivity3 extends AppCompatActivity {
 
     }
 
-//    public boolean onOptonsItemSelected(@NonNull MenuItem profile){
+    //    public boolean onOptonsItemSelected(@NonNull MenuItem profile){
 //        int item_id=profile.getItemId();
 //        if(item_id==R.id.profile){
 //            Toast.makeText(this,"This is profile",Toast.LENGTH_SHORT).show();
@@ -41,9 +42,11 @@ public class MainActivity3 extends AppCompatActivity {
 //        }
 //        return true;
 //    }
+    ImageButton imageButton44;
     EditText  EnteredID_U;
     Button insert, update, delete, view;
     Database DB;
+    ImageButton imageButton43;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -136,22 +139,26 @@ public class MainActivity3 extends AppCompatActivity {
                 builder.show();
             }
         });
-        ImageButton imageButton44;
+
         imageButton44=findViewById(R.id.imageButton44);
         imageButton44.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity3.this,MainActivity.class));
 
-                fragmentManager.beginTransaction()
-                        .replace(R.id.fragmentContainerView,VaccineFragment.class,null)
-                        .setReorderingAllowed(true)
-                        .addToBackStack("Vaccine")
-                        .commit();
+
+            }
+        });
+        imageButton43 = findViewById(R.id.imageButton43);
+        imageButton43.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity3.this,MainActivity5.class));
+
 
             }
         });
     }
 
 }
-
 
