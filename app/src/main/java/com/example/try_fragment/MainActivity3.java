@@ -15,6 +15,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -30,18 +31,30 @@ public class MainActivity3 extends AppCompatActivity {
 
     }
 
-    //    public boolean onOptonsItemSelected(@NonNull MenuItem profile){
-//        int item_id=profile.getItemId();
-//        if(item_id==R.id.profile){
-//            Toast.makeText(this,"This is profile",Toast.LENGTH_SHORT).show();
-//            Log.d("MENU", "This is profile");
-//        }
-//        if(item_id==R.id.setting){
-//            Toast.makeText(this,"This is coming soon",Toast.LENGTH_SHORT).show();
-//            Log.d("MENU", "This is Setting");
-//        }
-//        return true;
-//    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle menu item clicks
+        int id = item.getItemId();
+
+        if (id == R.id.setting) {
+            Toast.makeText(MainActivity3.this, "Comming Soon..", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        if (id == R.id.help) {
+            Toast.makeText(MainActivity3.this, "Comming Soon..", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        if (id == R.id.Profile) {
+            Toast.makeText(MainActivity3.this, "Comming Soon..", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        if (id == R.id.Logout) {
+            Toast.makeText(MainActivity3.this, "Comming Soon..", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
     ImageButton imageButton44;
     EditText  EnteredID_U;
     Button insert, update, delete, view;
@@ -58,27 +71,27 @@ public class MainActivity3 extends AppCompatActivity {
 
 
         EnteredID_U= findViewById(R.id.userID_FK);
-        //insert = findViewById(R.id.btnInsert);
+        insert = findViewById(R.id.btnInsert);
         update = findViewById(R.id.btnUpdate);
         //delete = findViewById(R.id.btnDelete);
         view = findViewById(R.id.btnView);
         DB = new Database(this);
 
-//        insert.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                String EnteredID_UTXT = EnteredID_U.getText().toString();
-//
-//
-//                Boolean check_insert_data = DB.insertuserdataU(EnteredID_UTXT);
-//                if(check_insert_data==true){
-//                    Toast.makeText(MainActivity3.this, "New Entry Inserted", Toast.LENGTH_SHORT).show();
-//                    Log.d("OUTPUT", "New Entry Inserted");}
-//                else
-//                {Toast.makeText(MainActivity3.this, "New Entry Not Inserted", Toast.LENGTH_SHORT).show();
-//                    Log.d("OUTPUT", "New Entry  Not Inserted");}
-//            }        });
+        insert.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                String EnteredID_UTXT = EnteredID_U.getText().toString();
+
+
+                Boolean check_insert_data = DB.insertuserdataU(EnteredID_UTXT);
+                if(check_insert_data==true){
+                    Toast.makeText(MainActivity3.this, "New Entry Inserted", Toast.LENGTH_SHORT).show();
+                    Log.d("OUTPUT", "New Entry Inserted");}
+                else
+                {Toast.makeText(MainActivity3.this, "New Entry Not Inserted", Toast.LENGTH_SHORT).show();
+                    Log.d("OUTPUT", "New Entry  Not Inserted");}
+            }        });
         update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -161,4 +174,3 @@ public class MainActivity3 extends AppCompatActivity {
     }
 
 }
-

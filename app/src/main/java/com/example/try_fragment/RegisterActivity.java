@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class RegisterActivity extends AppCompatActivity {
-    EditText edUsername1,edPassword1,edConfirmPassword,edName,edPhone_no,edEmail,edDOB;
+    EditText edUsername1,edpassword1,edConfirmPassword,edName,edphone_no,edEmail,edDOB;
     Button R1btn;
 
 
@@ -22,10 +22,10 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         edName = findViewById(R.id.editTextRegistrationPersonName);
-        edPhone_no = findViewById(R.id.editRTextPhone);
+        edphone_no = findViewById(R.id.editRTextPhone);
         edEmail = findViewById(R.id.editTextRTextEmailAddress);
         edUsername1 = findViewById(R.id.editTextRegistrationUsername);
-        edPassword1 = findViewById(R.id.editTextRegistrationPassword);
+        edpassword1 = findViewById(R.id.editTextRegistrationPassword);
         edConfirmPassword = findViewById(R.id.editTextConfirmPassword);
         edDOB = findViewById(R.id.editTextRegistrationPersonDOB);
         R1btn = findViewById(R.id.register1button);
@@ -36,10 +36,10 @@ public class RegisterActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 String username = edUsername1.getText().toString();
-                String password = edPassword1.getText().toString();
+                String password = edpassword1.getText().toString();
                 String confirmPassword = edConfirmPassword.getText().toString();
                 String name = edName.getText().toString();
-                String phone_no = edPhone_no.getText().toString();
+                String phone_no = edphone_no.getText().toString();
                 String Email = edEmail.getText().toString();
                 String DOB = edDOB.getText().toString();
 

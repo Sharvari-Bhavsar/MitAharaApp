@@ -12,20 +12,30 @@
         android:id="@+id/texttitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Please enter the details below"
+        android:text="If you want to delete,update then only enter vaccine_id"
         android:textSize="24dp"
         android:textColor="@color/blue2"
 
         android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/VcciID_FK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vaccine_ID"
+        android:textSize="24dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/blue2"
+        android:layout_below="@+id/texttitle"
+        android:inputType="textPersonName"/>
     <EditText
         android:id="@+id/userID_FK"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="User_id"
         android:textSize="24dp"
-        android:layout_marginTop="30dp"
+
         android:textColor="@color/blue2"
-        android:layout_below="@+id/texttitle"
+        android:layout_below="@+id/VcciID_FK"
         android:inputType="textPersonName"/>
     <EditText
         android:id="@+id/Vaccinename"

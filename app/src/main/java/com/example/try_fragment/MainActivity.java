@@ -1,19 +1,24 @@
 package com.example.try_fragment;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import androidx.fragment.app.FragmentManager;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
@@ -21,6 +26,31 @@ public class MainActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu,menu);
         return super.onCreateOptionsMenu(menu);
     }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle menu item clicks
+        int id = item.getItemId();
+
+        if (id == R.id.setting) {
+            Toast.makeText(MainActivity.this, "Comming Soon..", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        if (id == R.id.help) {
+            Toast.makeText(MainActivity.this, "Comming Soon..", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        if (id == R.id.Profile) {
+            Toast.makeText(MainActivity.this, "Comming Soon..", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        if (id == R.id.Logout) {
+            Toast.makeText(MainActivity.this, "Comming Soon..", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,7 +116,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+
     }
+
 
 
 

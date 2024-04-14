@@ -19,7 +19,7 @@ public class status_database_H extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_status_database_h);
 
-
+        Vaccine_ID = findViewById(R.id.VcciID_FK);
         Vaccinename = findViewById(R.id.Vaccinename);
         Status = findViewById(R.id.Status);
         EnteredID_H= findViewById(R.id.userID_FK);

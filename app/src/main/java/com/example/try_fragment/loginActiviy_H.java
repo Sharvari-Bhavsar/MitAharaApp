@@ -8,7 +8,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class loginActiviy_H extends Activity {
-    EditText H_edUsername,H_edPassword;
+    EditText H_edUsername,H_edpassword;
     Button Lbtn_H,Rbtn_H;
 
 
@@ -18,7 +18,7 @@ public class loginActiviy_H extends Activity {
         setContentView(R.layout.activity_login_activiy_h);
 
         H_edUsername = findViewById(R.id.editTextLoginUsername_H);
-        H_edPassword = findViewById(R.id.editTextLoginPassword_H);
+        H_edpassword = findViewById(R.id.editTextLoginPassword_H);
         Lbtn_H = findViewById(R.id.loginbutton_H);
         Rbtn_H = findViewById(R.id.registerbutton_H);
 
@@ -27,7 +27,7 @@ public class loginActiviy_H extends Activity {
             @Override
             public void onClick(View view) {
                 String username = H_edUsername.getText().toString();
-                String Password = H_edPassword.getText().toString();
+                String Password = H_edpassword.getText().toString();
                 Database_H db_H = new Database_H(getApplicationContext(), "Child App2", null, 1);
                 if (username.length() == 0 || Password.length() == 0) {
                     Toast.makeText(loginActiviy_H.this, "Please fill all details", Toast.LENGTH_SHORT).show();

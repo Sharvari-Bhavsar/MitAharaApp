@@ -20,10 +20,11 @@
 
     <ImageView
         android:id="@+id/imageView_main"
-        android:layout_width="370dp"
-        android:layout_height="193dp"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="48dp" />
+        android:layout_marginTop="48dp"
+        app:srcCompat="@drawable/mitahara" />
 
     <Button
         android:id="@+id/P_button"

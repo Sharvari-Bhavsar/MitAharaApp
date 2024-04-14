@@ -11,7 +11,7 @@ import android.widget.Toast;
 public class RegisterActiviy_H extends AppCompatActivity {
 
 
-    EditText edUsername1, edPassword1, edConfirmPassword, edHospitalName, edH_Phone_no, edCity, edState;
+    EditText edUsername1, edpassword1, edConfirmPassword, edHospitalName, edH_Phone_no, edCity, edState;
     Button R1btn;
 
 
@@ -25,7 +25,7 @@ public class RegisterActiviy_H extends AppCompatActivity {
         edCity = findViewById(R.id.editTextRTextCityAddress);
         edState = findViewById(R.id.editTextStateName);
         edUsername1 = findViewById(R.id.editTextRegistrationUsername);
-        edPassword1 = findViewById(R.id.editTextRegistrationPassword);
+        edpassword1 = findViewById(R.id.editTextRegistrationPassword);
         edConfirmPassword = findViewById(R.id.editTextConfirmPassword);
         R1btn = findViewById(R.id.register1button);
 
@@ -35,7 +35,7 @@ public class RegisterActiviy_H extends AppCompatActivity {
             public void onClick(View view) {
 
                 String username = edUsername1.getText().toString();
-                String Password = edPassword1.getText().toString();
+                String Password = edpassword1.getText().toString();
                 String confirmPassword = edConfirmPassword.getText().toString();
                 String Hospitalname = edHospitalName.getText().toString();
                 String phone_no = edH_Phone_no.getText().toString();

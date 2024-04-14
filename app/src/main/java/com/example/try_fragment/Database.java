@@ -24,6 +24,8 @@ public class Database extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(qry2);
         String qry3 = "CREATE TABLE USER_ENTER (Entered_id_user INTEGER)";
         sqLiteDatabase.execSQL(qry3);
+       // String qry4 = "CREATE TABLE Profile(Entered_password_user text)";
+        //sqLiteDatabase.execSQL(qry4);
 
 
 
@@ -35,6 +37,7 @@ public class Database extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL("drop Table if exists Parents");
         sqLiteDatabase.execSQL("drop Table if exists Vaccinedetails2");
         sqLiteDatabase.execSQL("drop Table if exists USER_ENTER");
+       // sqLiteDatabase.execSQL("drop Table if exists Profile");
 
     }
 
@@ -69,10 +72,30 @@ public class Database extends SQLiteOpenHelper {
 
 
     }
+//public int login(int User_id,String username,String Password){
+//
+//    String[] str = new String[2];
+//    str[0]= username;
+//    str[1]= Password;
+//    SQLiteDatabase db = getReadableDatabase();
+//    Cursor c = db.rawQuery("select* from Parents where username=? and password =?",str);
+//    if(c.moveToFirst()){
+//
+//        return User_id;
+//
+//
+//    }
+//
+//    return 0;
+//
+//
+//}
+
 
     public Boolean insertuserdata(String EnteredID_H,String Vaccinename, String Status)
     {
         SQLiteDatabase DB = this.getWritableDatabase();
+
         ContentValues contentValues = new ContentValues();
 
         contentValues.put("Vaccinename", Vaccinename);
@@ -138,6 +161,15 @@ public class Database extends SQLiteOpenHelper {
         Cursor cursor = DB.rawQuery("Select  EnteredID_H,Vaccinename ,Status  from Vaccinedetails2, USER_ENTER WHERE Vaccinedetails2.EnteredID_H == USER_ENTER.Entered_id_user ", null);
         return cursor;
     }
+//    public Cursor getdata_P ()
+//    {
+//        SQLiteDatabase DB = this.getWritableDatabase();
+//
+//        Cursor cursor = DB.rawQuery("Select  User_id,Name  from Parents,Profile WHERE Parents.User_id == Profile.Entered_password_user ", null);
+//        return cursor;
+//    }
+
+
     // very imp method to show table in logcat
     public  void USERdumpCursorInLogCat() {
         SQLiteDatabase db = this.getReadableDatabase();
@@ -194,6 +226,8 @@ public class Database extends SQLiteOpenHelper {
     }
 
 
-
+    public String getString(int i) {
+        return null;
+    }
 }
 
